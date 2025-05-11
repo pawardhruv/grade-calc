@@ -1,1 +1,4 @@
-# grade-calc
+# grade calculation
+q.1
+q.2
+q.3
