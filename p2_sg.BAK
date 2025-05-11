@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int marks;
+    char grade;
+    clrscr();
+    printf("enter your marks :-");
+    scanf("%d",&marks);
+    grade=(marks>=90)?('A'):
+	  (marks>=80)?('B'):
+	  (marks>=60)?('C'):
+	  (marks>=50)?('D'):'F';
+
+    printf("your grade is:%c",grade);
+
+}
+
+//////////////// Q.2 /////////////////////
+
+switch(grade)
+{
+	    case'A':
+		    printf("\n Excellent work");
+		    break();
+
+	    case'B':
+		    printf("\n Very Good");
+		    break();
+	    case'C':
+		    printf("\n Good Work');
+		    break();
+	    case'D':
+		    printf("\n First Class");
+		    break();
+	    case'E':
+		    printf("\n Poor Need Progress");
+		    break();
+	    case'F':
+		    printf("\n Sorry, You Are Fail");
+		    break();
+
+	    default:
+		    printf("\n invalid choice");
+}
+
+
+//////////////// Q.3 ////////////////////////////////////
+
+
+    if(grade == 'A')
+    {
+    printf("\n Congratulations !! You are eligible to Next Level");
+    }
+    else if(grade == 'B')
+    {
+    printf("\n Congratulations !! You are eligible to Next Level");
+    }
+    else if(grade == 'C')
+    {
+    printf("\n Congratulations !! You are eligible to Next Level");
+    }
+    else if(grade == 'D')
+    {
+    printf("\n Congratulations !! You are eligible to Next Level");
+    }
+    else if(grade == 'E')
+    {
+    printf("\n Poor, Need More Progress..");
+    }
+    else if(grade == 'F')
+    {
+    printf("\n Fail, Need More Progress");
+    }
+    else
+    {
+    printf(" please chech enter the value!!!");
+    }
+    getch();
+    }
